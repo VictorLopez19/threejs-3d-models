@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+}
+
+#three-container {
+    display: flex;
+    justify-content: center;  /* Centra el canvas horizontalmente */
+    align-items: center;      /* Centra el canvas verticalmente */
+    width: 100%;
+    height: 100vh !important; 
+}
+
+#three-container div {
+    width: 100%;
+    height: 100%;
+}
+
+#three-container canvas {
+    z-index: 10 !important;
+}
+
+#three-container div div {
+    height: auto;
+    width: auto;
+    z-index: 0 !important;
+    top:55px !important;
+}
+
+.allow-touch-styles {
+    top: 55px !important;
+    right: 0px !important;
+}
